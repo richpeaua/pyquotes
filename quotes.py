@@ -53,7 +53,7 @@ def return_rand_quote(quotes_map, quotes_file_path):
 if __name__ == "__main__":
     import time
 
-    QUOTES_FILE = "./quotes/quotes.txt"
+    QUOTES_FILE = "./quotes.txt"
     QUOTES_MAP = find_quote_file_pos(QUOTES_FILE)
 
     while True:
